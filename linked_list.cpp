@@ -20,7 +20,8 @@ void append(struct node **head_ref, int new_data)
 
     new_node->next = NULL;
 
-    
+
+
     if (*head_ref == NULL)
     {
         *head_ref = new_node;
